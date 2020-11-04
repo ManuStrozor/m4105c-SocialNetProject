@@ -1,0 +1,154 @@
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\ApplicationInsights.config
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\roslyn\csc.exe
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\roslyn\vbc.exe
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\SocialNetProject.dll.config
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\SocialNetProject.dll
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\SocialNetProject.pdb
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\Microsoft.AI.Web.dll
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\Microsoft.ApplicationInsights.dll
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\Microsoft.AI.Web.xml
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\Microsoft.ApplicationInsights.xml
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\obj\Debug\SocialNetProject.csprojResolveAssemblyReference.cache
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\obj\Debug\SocialNetProject.dll
+C:\Users\turbetde\Documents\Visual Studio 2015\Projects\SocialNetProject\SocialNetProject\obj\Debug\SocialNetProject.pdb
+E:\SocialNetProject\SocialNetProject\bin\ApplicationInsights.config
+E:\SocialNetProject\SocialNetProject\bin\roslyn\csc.exe
+E:\SocialNetProject\SocialNetProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\SocialNetProject\SocialNetProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\SocialNetProject\SocialNetProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\SocialNetProject\SocialNetProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\SocialNetProject\SocialNetProject\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\SocialNetProject\SocialNetProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\SocialNetProject\SocialNetProject\bin\roslyn\System.Collections.Immutable.dll
+E:\SocialNetProject\SocialNetProject\bin\roslyn\System.Reflection.Metadata.dll
+E:\SocialNetProject\SocialNetProject\bin\roslyn\vbc.exe
+E:\SocialNetProject\SocialNetProject\bin\roslyn\VBCSCompiler.exe
+E:\SocialNetProject\SocialNetProject\bin\roslyn\VBCSCompiler.exe.config
+E:\SocialNetProject\SocialNetProject\bin\SocialNetProject.dll.config
+E:\SocialNetProject\SocialNetProject\bin\SocialNetProject.dll
+E:\SocialNetProject\SocialNetProject\bin\SocialNetProject.pdb
+E:\SocialNetProject\SocialNetProject\bin\Microsoft.AI.Agent.Intercept.dll
+E:\SocialNetProject\SocialNetProject\bin\Microsoft.AI.DependencyCollector.dll
+E:\SocialNetProject\SocialNetProject\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\SocialNetProject\SocialNetProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\SocialNetProject\SocialNetProject\bin\Microsoft.AI.Web.dll
+E:\SocialNetProject\SocialNetProject\bin\Microsoft.AI.WindowsServer.dll
+E:\SocialNetProject\SocialNetProject\bin\Microsoft.ApplicationInsights.dll
+E:\SocialNetProject\SocialNetProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\SocialNetProject\SocialNetProject\bin\Microsoft.AI.DependencyCollector.xml
+E:\SocialNetProject\SocialNetProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\SocialNetProject\SocialNetProject\bin\Microsoft.AI.Web.xml
+E:\SocialNetProject\SocialNetProject\bin\Microsoft.AI.WindowsServer.xml
+E:\SocialNetProject\SocialNetProject\bin\Microsoft.ApplicationInsights.xml
+E:\SocialNetProject\SocialNetProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\SocialNetProject\SocialNetProject\obj\Debug\SocialNetProject.dll
+E:\SocialNetProject\SocialNetProject\obj\Debug\SocialNetProject.pdb
+D:\SocialNetProject\SocialNetProject\bin\ApplicationInsights.config
+D:\SocialNetProject\SocialNetProject\bin\roslyn\csc.exe
+D:\SocialNetProject\SocialNetProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\SocialNetProject\SocialNetProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\SocialNetProject\SocialNetProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\SocialNetProject\SocialNetProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\SocialNetProject\SocialNetProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\SocialNetProject\SocialNetProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\SocialNetProject\SocialNetProject\bin\roslyn\System.Collections.Immutable.dll
+D:\SocialNetProject\SocialNetProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\SocialNetProject\SocialNetProject\bin\roslyn\vbc.exe
+D:\SocialNetProject\SocialNetProject\bin\roslyn\VBCSCompiler.exe
+D:\SocialNetProject\SocialNetProject\bin\roslyn\VBCSCompiler.exe.config
+D:\SocialNetProject\SocialNetProject\bin\SocialNetProject.dll.config
+D:\SocialNetProject\SocialNetProject\bin\SocialNetProject.dll
+D:\SocialNetProject\SocialNetProject\bin\SocialNetProject.pdb
+D:\SocialNetProject\SocialNetProject\bin\Microsoft.AI.Agent.Intercept.dll
+D:\SocialNetProject\SocialNetProject\bin\Microsoft.AI.DependencyCollector.dll
+D:\SocialNetProject\SocialNetProject\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\SocialNetProject\SocialNetProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\SocialNetProject\SocialNetProject\bin\Microsoft.AI.Web.dll
+D:\SocialNetProject\SocialNetProject\bin\Microsoft.AI.WindowsServer.dll
+D:\SocialNetProject\SocialNetProject\bin\Microsoft.ApplicationInsights.dll
+D:\SocialNetProject\SocialNetProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\SocialNetProject\SocialNetProject\bin\Microsoft.AI.DependencyCollector.xml
+D:\SocialNetProject\SocialNetProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\SocialNetProject\SocialNetProject\bin\Microsoft.AI.Web.xml
+D:\SocialNetProject\SocialNetProject\bin\Microsoft.AI.WindowsServer.xml
+D:\SocialNetProject\SocialNetProject\bin\Microsoft.ApplicationInsights.xml
+D:\SocialNetProject\SocialNetProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\SocialNetProject\SocialNetProject\obj\Debug\SocialNetProject.dll
+D:\SocialNetProject\SocialNetProject\obj\Debug\SocialNetProject.pdb
+D:\SocialNetProject\SocialNetProject\obj\Debug\SocialNetProject.csprojAssemblyReference.cache
+D:\SocialNetProject\SocialNetProject\obj\Debug\SocialNetProject.csproj.CoreCompileInputs.cache
+D:\SocialNetProject\SocialNetProject\obj\Debug\SocialNetProject.csproj.CopyComplete
+E:\SocialNetProject\SocialNetProject\obj\Debug\SocialNetProject.csprojAssemblyReference.cache
+E:\SocialNetProject\SocialNetProject\obj\Debug\SocialNetProject.csproj.CoreCompileInputs.cache
+E:\SocialNetProject\SocialNetProject\obj\Debug\SocialNetProject.csproj.CopyComplete
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\ApplicationInsights.config
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\roslyn\csc.exe
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\roslyn\vbc.exe
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\SocialNetProject.dll.config
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\SocialNetProject.dll
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\SocialNetProject.pdb
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\Microsoft.AI.Web.dll
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\Microsoft.ApplicationInsights.dll
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\Microsoft.AI.Web.xml
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\Microsoft.ApplicationInsights.xml
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\obj\Debug\SocialNetProject.csprojAssemblyReference.cache
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\obj\Debug\SocialNetProject.csproj.CoreCompileInputs.cache
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\obj\Debug\SocialNetProject.csproj.CopyComplete
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\obj\Debug\SocialNetProject.dll
+C:\Users\emmanuel\Documents\GitHub\Social_Net_Project\SocialNetProject\obj\Debug\SocialNetProject.pdb
+S:\Documents\Github\Social_Net_Project\SocialNetProject\bin\ApplicationInsights.config
+S:\Documents\Github\Social_Net_Project\SocialNetProject\bin\SocialNetProject.dll.config
+S:\Documents\Github\Social_Net_Project\SocialNetProject\bin\SocialNetProject.dll
+S:\Documents\Github\Social_Net_Project\SocialNetProject\bin\SocialNetProject.pdb
+S:\Documents\Github\Social_Net_Project\SocialNetProject\obj\Debug\SocialNetProject.csprojAssemblyReference.cache
+S:\Documents\Github\Social_Net_Project\SocialNetProject\obj\Debug\SocialNetProject.csproj.CoreCompileInputs.cache
+S:\Documents\Github\Social_Net_Project\SocialNetProject\obj\Debug\SocialNetProject.dll
+S:\Documents\Github\Social_Net_Project\SocialNetProject\obj\Debug\SocialNetProject.pdb
+S:\Documents\Github\m4105c-SocialNetProject\SocialNetProject\bin\ApplicationInsights.config
+S:\Documents\Github\m4105c-SocialNetProject\SocialNetProject\bin\SocialNetProject.dll.config
+S:\Documents\Github\m4105c-SocialNetProject\SocialNetProject\bin\SocialNetProject.dll
+S:\Documents\Github\m4105c-SocialNetProject\SocialNetProject\bin\SocialNetProject.pdb
+S:\Documents\Github\m4105c-SocialNetProject\SocialNetProject\obj\Debug\SocialNetProject.csprojAssemblyReference.cache
+S:\Documents\Github\m4105c-SocialNetProject\SocialNetProject\obj\Debug\SocialNetProject.csproj.CoreCompileInputs.cache
+S:\Documents\Github\m4105c-SocialNetProject\SocialNetProject\obj\Debug\SocialNetProject.dll
+S:\Documents\Github\m4105c-SocialNetProject\SocialNetProject\obj\Debug\SocialNetProject.pdb
