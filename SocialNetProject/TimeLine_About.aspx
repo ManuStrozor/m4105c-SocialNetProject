@@ -73,17 +73,19 @@
 		<h5 class="f-title"><i class="ti-medall-alt"></i>Educations </h5>
 		<div class="notification-box">
 			<ul>
-                <asp:Repeater ID="Repeater1" runat="server">
+                <!-- Repeater Educations -->
+                <asp:Repeater ID="Repeater1" runat="server" OnItemCommand="ItemCommand">
                     <ItemTemplate>
 				        <li>
 					        <div class="notifi-meta">
 						        <p><%# Eval("edu_title") %></p>
 						        <span><%# Eval("edu_start") %> - <%# Eval("edu_end") %> | <%# Eval("edu_city") %>, <%# Eval("edu_country") %></span>
 					        </div>
-					        <i class="del fa fa-close"></i>
+                            <asp:LinkButton ID="LinkButton1" CommandName="delete" CommandArgument='<%# Eval("edu_id") %>' runat="server"><i class="del fa fa-close"></i></asp:LinkButton>
 				        </li>
                     </ItemTemplate>
                 </asp:Repeater>
+                <!-- Repeater Educations -->
 			</ul>
 		</div>
 	</div>

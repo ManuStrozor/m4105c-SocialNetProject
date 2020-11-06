@@ -100,7 +100,7 @@
             <asp:ListItem value="FRO">Faroe Islands</asp:ListItem>
             <asp:ListItem value="FJI">Fiji</asp:ListItem>
             <asp:ListItem value="FIN">Finland</asp:ListItem>
-            <asp:ListItem value="FRA">France</asp:ListItem>
+            <asp:ListItem value="FRA" selected="True">France</asp:ListItem>
             <asp:ListItem value="GUF">French Guiana</asp:ListItem>
             <asp:ListItem value="PYF">French Polynesia</asp:ListItem>
             <asp:ListItem value="ATF">French Southern Territories</asp:ListItem>
@@ -260,7 +260,7 @@
             <asp:ListItem value="UKR">Ukraine</asp:ListItem>
             <asp:ListItem value="ARE">United Arab Emirates</asp:ListItem>
             <asp:ListItem value="GBR">United Kingdom</asp:ListItem>
-            <asp:ListItem value="USA" selected>United States</asp:ListItem>
+            <asp:ListItem value="USA">United States</asp:ListItem>
             <asp:ListItem value="UMI">United States Minor Outlying Islands</asp:ListItem>
             <asp:ListItem value="URY">Uruguay</asp:ListItem>
             <asp:ListItem value="UZB">Uzbekistan</asp:ListItem>

@@ -4,7 +4,7 @@
     <section>
         <div class="feature-photo">
             <figure>
-                <img style="height: 350px;" src="<%= (this.Master as framepage_master).setCoverPic() %>" alt="">
+                <img style="height: 350px;" src="<%= (this.Master as SocialNetProject.FramePage).SetCoverPic() %>" alt=""/>
             </figure>
             <div class="add-btn">
                 <span>1205 followers</span>
@@ -22,7 +22,7 @@
                     <div class="col-lg-2 col-sm-3">
                         <div class="user-avatar">
                             <figure>
-                                <img style="width: 170px; height: 170px;" src="<%= (this.Master as framepage_master).setProfilePic() %>" alt="">
+                                <img style="width: 170px; height: 170px;" src="<%= (this.Master as SocialNetProject.FramePage).SetProfilePic() %>" alt=""/>
                                 <div class="edit-phto">
                                     <i class="fa fa-camera-retro"></i>
                                     <label class="fileContainer">
@@ -37,8 +37,8 @@
                         <div class="timeline-info">
                             <ul>
                                 <li class="admin-name">
-                                    <h5><%= (this.Master as framepage_master).setFullName() %></h5>
-                                    <span><%= (this.Master as framepage_master).setShortbio() %></span>
+                                    <h5><%= (this.Master as SocialNetProject.FramePage).SetFullName() %></h5>
+                                    <span><%= (this.Master as SocialNetProject.FramePage).SetShortbio() %></span>
                                 </li>
                                 <li>
                                     <a class="" href="TimeLine_Posts.aspx" title="" data-ripple="">Time Line</a>
@@ -118,7 +118,7 @@
                                         <div class="your-page">
                                             <figure>
                                                 <a title="" href="#">
-                                                    <img alt="" src="images/resources/friend-avatar9.jpg"></a>
+                                                    <img alt="" src="images/resources/friend-avatar9.jpg"/></a>
                                             </figure>
                                             <div class="page-meta">
                                                 <a class="underline" title="" href="#">My page</a>
@@ -136,25 +136,25 @@
                                                         <a title="weekly-likes" href="#">35 new likes this week</a>
                                                         <div class="users-thumb-list">
                                                             <a data-toggle="tooltip" title="" href="#" data-original-title="Anderw">
-                                                                <img alt="" src="images/resources/userlist-1.jpg">
+                                                                <img alt="" src="images/resources/userlist-1.jpg"/>
                                                             </a>
                                                             <a data-toggle="tooltip" title="" href="#" data-original-title="frank">
-                                                                <img alt="" src="images/resources/userlist-2.jpg">
+                                                                <img alt="" src="images/resources/userlist-2.jpg"/>
                                                             </a>
                                                             <a data-toggle="tooltip" title="" href="#" data-original-title="Sara">
-                                                                <img alt="" src="images/resources/userlist-3.jpg">
+                                                                <img alt="" src="images/resources/userlist-3.jpg"/>
                                                             </a>
                                                             <a data-toggle="tooltip" title="" href="#" data-original-title="Amy">
-                                                                <img alt="" src="images/resources/userlist-4.jpg">
+                                                                <img alt="" src="images/resources/userlist-4.jpg"/>
                                                             </a>
                                                             <a data-toggle="tooltip" title="" href="#" data-original-title="Ema">
-                                                                <img alt="" src="images/resources/userlist-5.jpg">
+                                                                <img alt="" src="images/resources/userlist-5.jpg"/>
                                                             </a>
                                                             <a data-toggle="tooltip" title="" href="#" data-original-title="Sophie">
-                                                                <img alt="" src="images/resources/userlist-6.jpg">
+                                                                <img alt="" src="images/resources/userlist-6.jpg"/>
                                                             </a>
                                                             <a data-toggle="tooltip" title="" href="#" data-original-title="Maria">
-                                                                <img alt="" src="images/resources/userlist-7.jpg">
+                                                                <img alt="" src="images/resources/userlist-7.jpg"/>
                                                             </a>
                                                         </div>
                                                     </div>
@@ -163,25 +163,25 @@
                                                         <a title="weekly-likes" href="#">440 new views this week</a>
                                                         <div class="users-thumb-list">
                                                             <a data-toggle="tooltip" title="" href="#" data-original-title="Anderw">
-                                                                <img alt="" src="images/resources/userlist-1.jpg">
+                                                                <img alt="" src="images/resources/userlist-1.jpg"/>
                                                             </a>
                                                             <a data-toggle="tooltip" title="" href="#" data-original-title="frank">
-                                                                <img alt="" src="images/resources/userlist-2.jpg">
+                                                                <img alt="" src="images/resources/userlist-2.jpg"/>
                                                             </a>
                                                             <a data-toggle="tooltip" title="" href="#" data-original-title="Sara">
-                                                                <img alt="" src="images/resources/userlist-3.jpg">
+                                                                <img alt="" src="images/resources/userlist-3.jpg"/>
                                                             </a>
                                                             <a data-toggle="tooltip" title="" href="#" data-original-title="Amy">
-                                                                <img alt="" src="images/resources/userlist-4.jpg">
+                                                                <img alt="" src="images/resources/userlist-4.jpg"/>
                                                             </a>
                                                             <a data-toggle="tooltip" title="" href="#" data-original-title="Ema">
-                                                                <img alt="" src="images/resources/userlist-5.jpg">
+                                                                <img alt="" src="images/resources/userlist-5.jpg"/>
                                                             </a>
                                                             <a data-toggle="tooltip" title="" href="#" data-original-title="Sophie">
-                                                                <img alt="" src="images/resources/userlist-6.jpg">
+                                                                <img alt="" src="images/resources/userlist-6.jpg"/>
                                                             </a>
                                                             <a data-toggle="tooltip" title="" href="#" data-original-title="Maria">
-                                                                <img alt="" src="images/resources/userlist-7.jpg">
+                                                                <img alt="" src="images/resources/userlist-7.jpg"/>
                                                             </a>
                                                         </div>
                                                     </div>
@@ -207,7 +207,7 @@
                         <div class="foot-logo">
                             <div class="logo">
                                 <a href="#" title="">
-                                    <img src="images/logo.png" alt=""></a>
+                                    <img src="images/logo.png" alt=""/></a>
                             </div>
                             <p>
                                 The trio took this simple idea and built it into the world’s leading carpooling platform.

@@ -48,22 +48,22 @@ namespace SocialNetProject
             }
         }
 
-        public string setFullName()
+        public string SetFullName()
         {
             return (Session["fullname"] != null) ? Session["fullname"].ToString() : "Default Name";
         }
 
-        public string setProfilePic()
+        public string SetProfilePic()
         {
             return (Session["profilepic"] != null) ? Session["profilepic"].ToString() : "images/resources/user-avatar.jpg";
         }
 
-        public string setCoverPic()
+        public string SetCoverPic()
         {
             return (Session["coverpic"] != null) ? Session["coverpic"].ToString() : "images/resources/timeline-1.jpg";
         }
 
-        public string setShortbio()
+        public string SetShortbio()
         {
             return (Session["shortbio"] != null) ? Session["shortbio"].ToString() : "Default Short Bio";
         }

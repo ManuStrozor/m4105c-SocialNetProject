@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Web.UI;
-
+using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
 using SocialNetProject.App_Code;
@@ -26,7 +26,7 @@ namespace SocialNetProject
 
         public void LoadUserData(Int32 ID)
         {
-            DataSet ds = getDataFromTable("tbl_users", ID);
+            DataSet ds = GetDataFromTable("tbl_users", ID);
 
             if (ds.Tables[0].Rows.Count != 0)
             {
@@ -41,7 +41,7 @@ namespace SocialNetProject
 
         public void LoadEducationsData(Int32 ID)
         {
-            DataSet ds = getDataFromTable("tbl_educations", ID);
+            DataSet ds = GetDataFromTable("tbl_educations", ID);
 
             if (ds.Tables[0].Rows.Count != 0)
             {
@@ -50,7 +50,7 @@ namespace SocialNetProject
             }
         }
 
-        private DataSet getDataFromTable(String table, Int32 id)
+        private DataSet GetDataFromTable(String table, Int32 id)
         {
             SqlDataAdapter sda = new SqlDataAdapter();
             SqlCommand c = Utility_Class.getPreparedCommand("conn1", "select * from " + table + " where users_id = @p1");
@@ -59,6 +59,24 @@ namespace SocialNetProject
             Utility_Class.setCommandParam(c, "@p1", id);
 
             return Utility_Class.getData(sda, c);
+        }
+
+        public void ItemCommand(object source, RepeaterCommandEventArgs e)
+        {
+            if (e.CommandName == "delete")
+            {
+                SqlDataAdapter sda = new SqlDataAdapter();
+                SqlCommand c = Utility_Class.getPreparedCommand("conn1", "delete from tbl_educations where edu_id = @p1");
+                sda.UpdateCommand = c;
+
+                Utility_Class.setCommandParam(c, "@p1", e.CommandArgument);
+
+                Utility_Class.execCommand(c);
+            }
+
+            Repeater1.DataBind();
+
+            Response.Redirect("TimeLine_About.aspx");
         }
     }
 }

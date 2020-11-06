@@ -16,16 +16,16 @@ namespace SocialNetProject
 
                 if (IsPostBack && FileUpload1.HasFile)
                 {
-                    updatePic(FileUpload1, "user_profilepic");
+                    UpdatePic(FileUpload1, "user_profilepic");
                 }
                 else if (IsPostBack && FileUploadCover.HasFile)
                 {
-                    updatePic(FileUploadCover, "user_coverpic");
+                    UpdatePic(FileUploadCover, "user_coverpic");
                 }
             }
         }
 
-        private void updatePic(FileUpload f, String column)
+        private void UpdatePic(FileUpload f, String column)
         {
             string randomName = "File-" + DateTime.Now.Ticks.ToString();
             string vir_path = "~/UserImages/" + randomName + ".jpg";

@@ -4,16 +4,16 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
     <title>Winku Social Network</title>
-    <link rel="icon" href="images/fav.png" type="image/png" sizes="16x16">
-    <link rel="stylesheet" href="css/main.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/color.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="images/fav.png" type="image/png" sizes="16x16"/>
+    <link rel="stylesheet" href="css/main.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/color.css"/>
+    <link rel="stylesheet" href="css/responsive.css"/>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -25,7 +25,7 @@
                     </span>
                     <span class="mh-text">
                         <a href="#" title="">
-                            <img src="images/logo2.png" alt="">
+                            <img src="images/logo2.png" alt=""/>
                         </a>
                     </span>
                     <span class="mh-btns-right">
@@ -39,7 +39,7 @@
         <div class="topbar stick">
             <div class="logo">
                 <a title="" href="TimeLine_About.aspx">
-                    <img src="images/logo.png" alt=""></a>
+                    <img src="images/logo.png" alt=""/></a>
             </div>
 
             <div class="top-area">
@@ -54,7 +54,7 @@
                             <ul class="drops-menu">
                                 <li>
                                     <a href="notifications.html" title="">
-                                        <img src="images/resources/thumb-1.jpg" alt="">
+                                        <img src="images/resources/thumb-1.jpg" alt=""/>
                                         <div class="mesg-meta">
                                             <h6>sarah Loren</h6>
                                             <span>Hi, how r u dear ...?</span>
@@ -65,7 +65,7 @@
                                 </li>
                                 <li>
                                     <a href="notifications.html" title="">
-                                        <img src="images/resources/thumb-2.jpg" alt="">
+                                        <img src="images/resources/thumb-2.jpg" alt=""/>
                                         <div class="mesg-meta">
                                             <h6>Jhon doe</h6>
                                             <span>Hi, how r u dear ...?</span>
@@ -76,7 +76,7 @@
                                 </li>
                                 <li>
                                     <a href="notifications.html" title="">
-                                        <img src="images/resources/thumb-3.jpg" alt="">
+                                        <img src="images/resources/thumb-3.jpg" alt=""/>
                                         <div class="mesg-meta">
                                             <h6>Andrew</h6>
                                             <span>Hi, how r u dear ...?</span>
@@ -87,7 +87,7 @@
                                 </li>
                                 <li>
                                     <a href="notifications.html" title="">
-                                        <img src="images/resources/thumb-4.jpg" alt="">
+                                        <img src="images/resources/thumb-4.jpg" alt=""/>
                                         <div class="mesg-meta">
                                             <h6>Tom cruse</h6>
                                             <span>Hi, how r u dear ...?</span>
@@ -98,7 +98,7 @@
                                 </li>
                                 <li>
                                     <a href="notifications.html" title="">
-                                        <img src="images/resources/thumb-5.jpg" alt="">
+                                        <img src="images/resources/thumb-5.jpg" alt=""/>
                                         <div class="mesg-meta">
                                             <h6>Amy</h6>
                                             <span>Hi, how r u dear ...?</span>
@@ -113,7 +113,7 @@
                     </li>
                 </ul>
                 <div class="user-img">
-                    <img style="width: 60px; height: 60px;" src="<%= setProfilePic() %>" alt="">
+                    <img style="width: 60px; height: 60px;" src="<%= SetProfilePic() %>" alt=""/>
                     <span class="status f-online"></span>
                     <div class="user-setting">
                         <a href="#" title=""><span class="status f-online"></span>online</a>
@@ -138,7 +138,7 @@
                     <div class="col-md-12">
                         <span class="copyright">© Winku 2020. All rights reserved.</span>
                         <i>
-                            <img src="images/credit-cards.png" alt=""></i>
+                            <img src="images/credit-cards.png" alt=""/></i>
                     </div>
                 </div>
             </div>
