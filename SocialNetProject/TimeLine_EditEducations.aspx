@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TimeLine.Master" AutoEventWireup="true" CodeBehind="TimeLine_EditEducations.aspx.cs" Inherits="SocialNetProject.Edit_Educations" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="editing-info">
-    <h5 class="f-title"><i class="ti-info-alt"></i> Edit work & Education</h5>
+    <h5 class="f-title"><i class="ti-medall-alt"></i>Edit Educations</h5>
     <div class="checkbox">
         <label>
             <asp:CheckBox ID="CheckBox1" runat="server" /><i class="check-box"></i>Graduate
@@ -282,7 +282,6 @@
     </div>
     <div class="submit-btns">
         <asp:Button ID="Button1" class="mtr-btn" runat="server" Text="New" OnClick="Button1_Click" />
-        <asp:Button ID="Button2" class="mtr-btn" runat="server" Text="Update" OnClick="Button2_Click" />
     </div>
 </div>
 </asp:Content>

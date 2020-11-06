@@ -13,10 +13,21 @@ namespace SocialNetProject
         {
             if (Session["UserID"] != null)
             {
-                String targetID = Session["viewID"] != null ? Session["viewID"].ToString() : Session["UserID"].ToString();
-
-                LoadFriendsData(Convert.ToInt32(targetID));
-                LoadRequestsData(Convert.ToInt32(targetID));
+                Int32 currentID = Convert.ToInt32(Session["UserID"].ToString());
+                if (Session["viewID"] != null)
+                {
+                    Int32 targetID = Convert.ToInt32(Session["viewID"].ToString());
+                    if (!IsPostBack && (this.Master as TimeLine).CheckFriendship(currentID, targetID))
+                    {
+                        LoadFriendsData(targetID);
+                        LoadRequestsData(targetID);
+                    }
+                }
+                else if (!IsPostBack)
+                {
+                    LoadFriendsData(currentID);
+                    LoadRequestsData(currentID);
+                }
             }
             else
             {

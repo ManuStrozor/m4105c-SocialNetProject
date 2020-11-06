@@ -7,13 +7,14 @@
                 <li>
                     <div class="nearly-pepls">
                         <figure>
-                            <a>
+                            <asp:LinkButton ID="LinkButton3" CommandName="viewFriend" runat="server">
                                 <img style="width: 60px; height: 60px;" src="<%# Eval("user_profilepic") %>" alt="" />
-                            </a>
+                            </asp:LinkButton>
                         </figure>
                         <div class="pepl-info">
                             <h4>
-                                <asp:LinkButton ID="LinkButton2" runat="server" CommandName="viewFriend"><%# Eval("full_name") %></asp:LinkButton></h4>
+                                <asp:LinkButton ID="LinkButton2" runat="server" CommandName="viewFriend"><%# Eval("full_name") %></asp:LinkButton>
+                            </h4>
                             <asp:Label ID="Label1" runat="server" Visible="False" Text='<%# Eval("users_id") %>'></asp:Label>
                             <span><%# Eval("user_shortbio") %></span>
                             <em><i class="fa fa-map-marker"></i><%# Eval("user_city") %></em>

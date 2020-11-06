@@ -965,6 +965,7 @@
     <Content Include="css\strip-skins\strip\previous.svg" />
     <Content Include="css\strip.css" />
     <Content Include="css\style.css" />
+    <Content Include="RightBox.ascx" />
     <Content Include="TimeLine_EditEducations.aspx" />
     <Content Include="fonts\fontawesome-webfont3e6e.svg" />
     <Content Include="fonts\themify9f24.svg" />
@@ -1239,6 +1240,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Code\Utility_Class.cs" />
+    <Compile Include="RightBox.ascx.cs">
+      <DependentUpon>RightBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RightBox.ascx.designer.cs">
+      <DependentUpon>RightBox.ascx</DependentUpon>
+    </Compile>
     <Compile Include="TimeLine_EditEducations.aspx.cs">
       <DependentUpon>TimeLine_EditEducations.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -7,7 +7,7 @@
 			    <div class="user-post">
 				    <div class="friend-info">
 					    <figure>
-						    <img src="<%# Eval("user_profilepic") %>" alt="">
+						    <img style="max-width:40px;width:40px;height:40px;" src="<%# Eval("user_profilepic") %>" alt="">
 					    </figure>
 					    <div class="friend-name">
                             <ins><asp:LinkButton ID="LinkButton1" CommandName="viewFriend" CommandArgument='<%# Eval("users_id") %>' runat="server"><%# Eval("full_name") %></asp:LinkButton></ins>
@@ -55,7 +55,7 @@
 								<ItemTemplate>
 									<li>
 										<div class="comet-avatar">
-											<img src="<%# Eval("user_profilepic") %>" alt="">
+											<img style="min-width:30px;width:30px;height:30px;" src="<%# Eval("user_profilepic") %>" alt="">
 										</div>
 										<div class="we-comment">
 											<div class="coment-head">
@@ -73,7 +73,7 @@
 							<!-- Repeater Comments -->
 						    <li class="post-comment">
 							    <div class="comet-avatar">
-								    <img style="width:30px;height:30px;" src="<%= Session["profilepic"] %>" alt="">
+								    <img style="min-width:30px;width:30px;height:30px;" src="<%= Session["profilepic"] %>" alt="">
 							    </div>
 							    <div class="post-comt-box">
                                     <asp:TextBox ID="TextBoxComment"  runat="server"></asp:TextBox>

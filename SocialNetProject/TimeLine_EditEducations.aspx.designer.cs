@@ -7,11 +7,13 @@
 // </généré automatiquement>
 //------------------------------------------------------------------------------
 
-namespace SocialNetProject {
-    
-    
-    public partial class Edit_Educations {
-        
+namespace SocialNetProject
+{
+
+
+    public partial class Edit_Educations
+    {
+
         /// <summary>
         /// Contrôle CheckBox1.
         /// </summary>
@@ -20,7 +22,7 @@ namespace SocialNetProject {
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox CheckBox1;
-        
+
         /// <summary>
         /// Contrôle TextBox1.
         /// </summary>
@@ -29,7 +31,7 @@ namespace SocialNetProject {
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox1;
-        
+
         /// <summary>
         /// Contrôle TextBox2.
         /// </summary>
@@ -38,7 +40,7 @@ namespace SocialNetProject {
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox2;
-        
+
         /// <summary>
         /// Contrôle TextBox3.
         /// </summary>
@@ -47,7 +49,7 @@ namespace SocialNetProject {
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox3;
-        
+
         /// <summary>
         /// Contrôle TextBox4.
         /// </summary>
@@ -56,7 +58,7 @@ namespace SocialNetProject {
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox4;
-        
+
         /// <summary>
         /// Contrôle DropDownList1.
         /// </summary>
@@ -65,7 +67,7 @@ namespace SocialNetProject {
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
-        
+
         /// <summary>
         /// Contrôle TextBox5.
         /// </summary>
@@ -74,7 +76,7 @@ namespace SocialNetProject {
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox5;
-        
+
         /// <summary>
         /// Contrôle Button1.
         /// </summary>
@@ -83,14 +85,5 @@ namespace SocialNetProject {
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
-        
-        /// <summary>
-        /// Contrôle Button2.
-        /// </summary>
-        /// <remarks>
-        /// Champ généré automatiquement.
-        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
     }
 }

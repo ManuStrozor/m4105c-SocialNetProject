@@ -13,14 +13,15 @@ namespace SocialNetProject
         {
             if (Session["UserID"] != null)
             {
+                Int32 currentID = Convert.ToInt32(Session["UserID"].ToString());
                 if (Session["viewID"] != null)
                 {
                     Int32 targetID = Convert.ToInt32(Session["viewID"].ToString());
-                    if (!IsPostBack && checkFriendship(targetID)) LoadPostsData(targetID);
+                    if (!IsPostBack && (this.Master as TimeLine).CheckFriendship(currentID, targetID)) LoadPostsData(targetID);
                 }
                 else
                 {
-                    if (!IsPostBack) LoadPostsData(Convert.ToInt32(Session["UserID"].ToString()));
+                    if (!IsPostBack) LoadPostsData(currentID);
                 }
             }
             else
@@ -29,21 +30,7 @@ namespace SocialNetProject
             }
         }
 
-        public Boolean checkFriendship(Int32 ID) {
-
-            SqlDataAdapter sda = new SqlDataAdapter();
-            SqlCommand c = Utility_Class.getPreparedCommand("conn1", "select * from tbl_users" +
-                " where users_id = @p1" +
-                " and users_id in ( select users_id_2 from tbl_friendship where users_id_1 = @p1 and friendship_status = 1)" +
-                " or users_id in ( select users_id_1 from tbl_friendship where users_id_2 = @p1 and friendship_status = 1)");
-            sda.SelectCommand = c;
-
-            Utility_Class.setCommandParam(c, "@p1", ID);
-
-            DataSet ds = Utility_Class.getData(sda, c);
-
-            return (ds.Tables[0].Rows.Count != 0);
-        }
+        
 
         public void LoadPostsData(Int32 ID)
         {
@@ -88,19 +75,6 @@ namespace SocialNetProject
                     Repeater2.DataBind();
                 }
             }
-        }
-
-        public Object FixPath(Object o)
-        {
-            return o.ToString().Replace("~", "..");
-        }
-
-        public Object FixDate(Object o)
-        {
-            Int64 timeTicks = Convert.ToInt64(o.ToString());
-            DateTime dt = new DateTime(timeTicks);
-
-            return dt.ToLongDateString();
         }
 
         public void ItemCommandPosts(object source, RepeaterCommandEventArgs e)
@@ -153,6 +127,19 @@ namespace SocialNetProject
                 Session["viewID"] = e.CommandArgument;
                 Response.Redirect("TimeLine_About.aspx");
             }
+        }
+
+        public Object FixPath(Object o)
+        {
+            return o.ToString().Replace("~", "..");
+        }
+
+        public Object FixDate(Object o)
+        {
+            Int64 timeTicks = Convert.ToInt64(o.ToString());
+            DateTime dt = new DateTime(timeTicks);
+
+            return dt.ToLongDateString();
         }
     }
 }

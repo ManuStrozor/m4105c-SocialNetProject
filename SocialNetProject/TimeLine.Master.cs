@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data;
 using System.Data.SqlClient;
 using SocialNetProject.App_Code;
 
@@ -12,7 +13,16 @@ namespace SocialNetProject
         {
             if (Session["UserID"] != null)
             {
-                editBoxContent.Visible = (Session["viewID"] == null);
+                if (Request.QueryString["me"] != null && Request.QueryString["me"] == "yes") Session.Remove("viewID");
+
+                Boolean noViewSession = Session["viewID"] == null;
+                Boolean viewSession = !noViewSession;
+                // Things only for current Session
+                editCPContent.Visible = noViewSession;
+                editPPContent.Visible = noViewSession;
+                editBoxContent.Visible = noViewSession;
+                // Things for View Session
+                addFriendContent.Visible = viewSession && !CheckFriendship(Convert.ToInt32(Session["UserID"].ToString()), Convert.ToInt32(Session["viewID"].ToString()));
 
                 if (IsPostBack && FileUpload1.HasFile)
                 {
@@ -23,6 +33,23 @@ namespace SocialNetProject
                     UpdatePic(FileUploadCover, "user_coverpic");
                 }
             }
+        }
+
+        public Boolean CheckFriendship(Int32 currentID, Int32 targetID)
+        {
+            SqlDataAdapter sda = new SqlDataAdapter();
+            SqlCommand c = Utility_Class.getPreparedCommand("conn1", "select * from tbl_users" +
+                " where users_id = @p1" +
+                " and users_id in ( select users_id_2 from tbl_friendship where users_id_1 = @p2 and friendship_status = 1)" +
+                " or users_id in ( select users_id_1 from tbl_friendship where users_id_2 = @p2 and friendship_status = 1)");
+            sda.SelectCommand = c;
+
+            Utility_Class.setCommandParam(c, "@p1", targetID);
+            Utility_Class.setCommandParam(c, "@p2", currentID);
+
+            DataSet ds = Utility_Class.getData(sda, c);
+
+            return (ds.Tables[0].Rows.Count != 0);
         }
 
         private void UpdatePic(FileUpload f, String column)

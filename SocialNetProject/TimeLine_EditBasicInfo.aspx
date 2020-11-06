@@ -374,7 +374,6 @@
             <label class="control-label" for="textarea">About Me</label><i class="mtrl-select"></i>
         </div>
         <div class="submit-btns">
-            <button type="button" class="mtr-btn"><span>Cancel</span></button>
             <asp:Button ID="Button1" class="mtr-btn" runat="server" Text="Update" OnClick="Button1_Click" />
         </div>
     </div>

@@ -44,7 +44,7 @@
 
             <div class="top-area">
                 <ul class="setting-area">
-                    <li><a href="#" title="Home" data-ripple=""><i class="ti-home"></i></a></li>
+                    <li><a href="#" title="Home"><i class="ti-home"></i></a></li>
                     <li>
                         <a href="#" title="Notification" data-ripple="">
                             <i class="ti-bell"></i><span>20</span>
@@ -108,21 +108,20 @@
                                     <span class="tag">New</span>
                                 </li>
                             </ul>
-                            <a href="notifications.html" title="" class="more-mesg">view more</a>
+                            <a href="TimeLine_Notifications.aspx" title="" class="more-mesg">view more</a>
                         </div>
                     </li>
                 </ul>
                 <div class="user-img">
                     <img style="width: 60px; height: 60px;" src="<%= SetProfilePic() %>" alt=""/>
-                    <span class="status f-online"></span>
+                    <span class='status f-<%= SetOnlineStatus() %>'></span>
                     <div class="user-setting">
-                        <a href="#" title=""><span class="status f-online"></span>online</a>
-                        <a href="#" title=""><span class="status f-away"></span>away</a>
-                        <a href="#" title=""><span class="status f-off"></span>offline</a>
+                        <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"><span class="status f-online"></span>online</asp:LinkButton>
+                        <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click"><span class="status f-away"></span>away</asp:LinkButton>
+                        <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click"><span class="status f-off"></span>offline</asp:LinkButton>
                         <a href="TimeLine_About.aspx?me=yes" title=""><i class="ti-user"></i>view profile</a>
-                        <a href="TimeLine_EditBasic.aspx" title=""><i class="ti-pencil-alt"></i>edit profile</a>
+                        <a href="TimeLine_EditBasicInfo.aspx" title=""><i class="ti-pencil-alt"></i>edit profile</a>
                         <a href="TimeLine_Notifications.aspx" title=""><i class="ti-bell"></i>notifications</a>
-                        <a href="#" title=""><i class="ti-settings"></i>account setting</a>
                         <asp:LinkButton ID="LogoutButton" runat="server" OnClick="LogoutButton_Click"><i class="ti-power-off"></i>log out</asp:LinkButton>
                     </div>
                 </div>

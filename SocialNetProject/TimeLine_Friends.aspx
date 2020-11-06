@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="frnds">
         <ul class="nav nav-tabs">
-            <li class="nav-item"><a class="active" href="#frends" data-toggle="tab">My Friends</a><span><asp:Label ID="LabelNbFriends" runat="server" Text="0"></asp:Label></span></li>
+            <li class="nav-item"><a class="active" href="#frends" data-toggle="tab">Friends</a><span><asp:Label ID="LabelNbFriends" runat="server" Text="0"></asp:Label></span></li>
             <li class="nav-item"><a class="" href="#frends-req" data-toggle="tab">Friend Requests</a><span><asp:Label ID="LabelNbRequests" runat="server" Text="0"></asp:Label></span></li>
         </ul>
         <div class="tab-content">

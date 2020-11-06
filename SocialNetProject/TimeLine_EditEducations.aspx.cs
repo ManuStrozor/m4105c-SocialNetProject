@@ -38,10 +38,5 @@ namespace SocialNetProject
 
             Response.Redirect("TimeLine_About.aspx");
         }
-
-        protected void Button2_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

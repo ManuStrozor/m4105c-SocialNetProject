@@ -12,7 +12,16 @@ namespace SocialNetProject
         {
             if (Session["UserID"] != null)
             {
-                LoadImagesData(Convert.ToInt32(Session["viewID"] != null ? Session["viewID"].ToString() : Session["UserID"].ToString()));
+                Int32 currentID = Convert.ToInt32(Session["UserID"].ToString());
+                if (Session["viewID"] != null)
+                {
+                    Int32 targetID = Convert.ToInt32(Session["viewID"].ToString());
+                    if ((this.Master as TimeLine).CheckFriendship(currentID, targetID)) LoadImagesData(targetID);
+                }
+                else
+                {
+                    LoadImagesData(currentID);
+                }
             }
             else
             {
